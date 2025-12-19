@@ -1,0 +1,5 @@
+// Custom SCSS overrides for CMS (Studio) theme
+
+body, h1, h2, h3, h4, h5, h6, p, label, button, strong {
+  font-family: $font-family-title !important;
+}

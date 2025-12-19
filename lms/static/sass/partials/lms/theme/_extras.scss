@@ -1,0 +1,20 @@
+// Custom SCSS overrides for LMS theme
+
+body, h1, h2, h3, h4, h5, h6, p, label, button, strong {
+  font-family: $font-family-title !important;
+}
+
+.global-header {
+  background: $primary-light !important;
+}
+
+input[type="button"],
+.learn-more {
+  background: $primary !important;
+  border-color: $primary !important;
+  color: $primary-light !important;
+  text-shadow: none !important;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: none !important;
+}
